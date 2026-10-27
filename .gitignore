@@ -1,0 +1,32 @@
+data/
+*.pt
+*.pth
+*.onnx
+reports/runs/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+# Secrets and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Model weights and datasets
+*.pt
+*.pth
+*.onnx
+datasets/
+data/raw/
+
+# Python artifacts
+*.pyc
